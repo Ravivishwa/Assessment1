@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="page-header">
+			<center><h1>Assesment 1</h1></center>
+			<ol>
+				<h4><li>Create 16 divs with white color inside body tag in 4*4 format.</li>
+				<li>Register a common click event to all these 16 divs using jquery.</li>
+				<li>Inside click handler change color of the div on which click was performed to red only if the divs to the left,right,top and bottom divs are white.</li>
+				<li>If a div is clicked and it was already red then change color of div to white.</li></h4>
+			</ol> 
+		</div>    
+	</div>
+
+<div class="container" >
+  <div class="row one">
+    <div class="col-sm-3 main col_1"><h1>1</h1></div>
+    <div class="col-sm-3 main col_2"><h1>2</h1></div>
+    <div class="col-sm-3 main col_3"><h1>3</h1></div>
+    <div class="col-sm-3 main col_4"><h1>4</h1></div>
+  </div>
+    <div class="row two">
+    <div class="col-sm-3 main col_1"><h1>5</h1></div>
+    <div class="col-sm-3 main col_2"><h1>6</h1></div>
+    <div class="col-sm-3 main col_3"><h1>7</h1></div>
+    <div class="col-sm-3 main col_4"><h1>8</h1></div>
+  </div>
+    <div class="row three">
+    <div class="col-sm-3 main col_1"><h1>9</h1></div>
+    <div class="col-sm-3 main col_2"><h1>10</h1></div>
+    <div class="col-sm-3 main col_3"><h1>11</h1></div>
+    <div class="col-sm-3 main col_4"><h1>12</h1></div>
+  </div>
+    <div class="row four">
+    <div class="col-sm-3 main col_1"><h1>13</h1></div>
+    <div class="col-sm-3 main col_2"><h1>14</h1></div>
+    <div class="col-sm-3 main col_3"><h1>15</h1></div>
+    <div class="col-sm-3 main col_4"><h1>16</h1></div>
+  </div>
+  
+</div>    
+</body>
+</html>
+
+<script src="script.js"></script>
